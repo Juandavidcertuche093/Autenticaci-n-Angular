@@ -10,6 +10,12 @@ import {BackgroundComponent} from './components/background/background.component'
 import {FooterComponent} from './components/footer/footer.component';
 import {HeaderComponent} from './components/header/header.component';
 import {LoginFormComponent} from './components/login-form/login-form.component';
+import {RegisterFormComponent} from './components/register-form/register-form.component';
+import {RegisterComponent} from './pages/register/register.component';
+import {ForgoPasswordFormComponent} from './components/forgo-password-form/forgo-password-form.component';
+import {ForgotPasswordComponent} from './pages/forgot-password/forgot-password.component';
+import {RecoveryFormComponent} from './components/recovery-form/recovery-form.component';
+import {RecoveryComponent} from './pages/recovery/recovery.component'
 
 
 
@@ -19,7 +25,13 @@ import {LoginFormComponent} from './components/login-form/login-form.component';
       BackgroundComponent,
       FooterComponent,
       HeaderComponent,
-      LoginFormComponent
+      LoginFormComponent,
+      RegisterFormComponent,
+      RegisterComponent,
+      ForgoPasswordFormComponent,
+      ForgotPasswordComponent,
+      RecoveryFormComponent,
+      RecoveryComponent
     ],
     imports: [
       CommonModule,
