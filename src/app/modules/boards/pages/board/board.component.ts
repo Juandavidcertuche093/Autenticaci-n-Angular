@@ -5,9 +5,9 @@ import {
   transferArrayItem,
 } from '@angular/cdk/drag-drop';
 import { Dialog } from '@angular/cdk/dialog';
-import { TodoDialogComponent } from '@boards/components/todo-dialog/todo-dialog.component';
+import { TodoDialogComponent } from './../../components/todo-dialog/todo-dialog.component';
 
-import { ToDo, Column } from '@models/todo.model';
+import { ToDo, Column } from './../../../../models/todo.model';
 
 @Component({
   selector: 'app-board',

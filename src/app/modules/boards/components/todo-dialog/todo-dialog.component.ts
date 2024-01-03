@@ -9,7 +9,7 @@ import {
   faCheckSquare,
   faClock,
 } from '@fortawesome/free-solid-svg-icons';
-import { ToDo} from './../../../../models/todo.model';
+import { ToDo } from './../../../../models/todo.model';
 
 interface InputData {
   todo: ToDo;
